@@ -1,0 +1,52 @@
+body{
+background:#551100;
+text-align:center;font-family:arial,sans-serif;font-weight:bold;color:white;
+}
+a:link{color:#ccccff;font-weight:bold;text-decoration:none}
+a:visited{color:#aaaaff;font-weight:bold;text-decoration:none}
+a:hover{color:yellow;font-weight:bold;text-decoration:none}
+a:active{color:yellow;font-weight:bold;text-decoration:none}
+}
+
+#backContainer {
+position:fixed;
+width:64px;
+height:64px;
+z-index:20;
+animation-name:slideInButton;
+animation-duration:5s;
+animation-fill-mode:forwards;
+cursor: pointer;
+box-shadow: 10px 10px 5px #888888;
+}
+@keyframes slideInButton {
+0%{left:-200px;top:5px}
+80%{left:-200px;top:5px}
+100%{left:5px;top:5px}
+}
+
+#backContainer {
+position:fixed;
+width:64px;
+height:64px;
+z-index:20;
+animation-name:buttonSlide;
+animation-duration:5s;
+animation-fill-mode:forwards
+}
+@keyframes buttonSlide {
+0%{left:-200px;top:5px}
+80%{left:-200px;top:5px}
+100%{left:5px;top:5px}
+}
+
+#logo {
+width: 80vw;
+height: 40vw;
+display: block;
+}
+
+#gameFrame{
+width: 100%;
+height: 97vh;
+}
